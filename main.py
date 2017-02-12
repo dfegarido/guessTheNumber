@@ -47,7 +47,7 @@ def cont(): #continue
         deco()
         guess(randint(0,10))
     elif(x == "N" or x == "n"):
-        print("exit")
+        print("Thanks !!! ;)")
     elif(len(x) >= 0):
         clear()
         deco()
@@ -57,6 +57,7 @@ def cont(): #continue
 
         
 def deco():
+    clear()
     print("===========================")
     print("#Guess The Number Project")
     print("#Rorounifix")
